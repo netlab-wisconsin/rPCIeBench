@@ -1,0 +1,12 @@
+{
+    "value": [
+        "qref:22a8e66b:/home/hwt22/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3-plugin_2.12.13/3.4.4/chisel3-plugin_2.12.13-3.4.4.jar",
+        "qref:45edff8f:/home/hwt22/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalamacros/paradise_2.12.13/2.1.1/paradise_2.12.13-2.1.1.jar",
+        "qref:0f03b8bf:/home/hwt22/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.13/scala-compiler-2.12.13.jar",
+        "qref:02026066:/home/hwt22/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar",
+        "qref:add62f47:/home/hwt22/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.13/scala-reflect-2.12.13.jar",
+        "qref:24e39802:/home/hwt22/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar"
+    ],
+    "valueHash": 1956709665,
+    "inputsHash": -310864438
+}

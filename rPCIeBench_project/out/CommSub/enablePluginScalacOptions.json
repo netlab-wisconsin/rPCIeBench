@@ -1,0 +1,8 @@
+{
+    "value": [
+        "-Xplugin:/home/hwt22/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3-plugin_2.12.13/3.4.4/chisel3-plugin_2.12.13-3.4.4.jar",
+        "-Xplugin:/home/hwt22/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalamacros/paradise_2.12.13/2.1.1/paradise_2.12.13-2.1.1.jar"
+    ],
+    "valueHash": -784445890,
+    "inputsHash": 1331727001
+}

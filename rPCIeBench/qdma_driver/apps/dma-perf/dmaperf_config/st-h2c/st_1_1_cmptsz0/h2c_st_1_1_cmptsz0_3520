@@ -1,0 +1,15 @@
+mode=st
+dir=h2c
+pf_range=0:0
+q_range=0:0
+flags=
+rngidx=5
+cmpl_status_acc=5
+runtime=30
+dump_en=1
+num_threads=8
+num_pkt=64
+pkt_sz=3520
+pci_bus=17
+pci_device=00
+

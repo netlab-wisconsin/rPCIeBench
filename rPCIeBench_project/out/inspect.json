@@ -1,0 +1,5 @@
+{
+    "value": "shutdown(MainModule.scala:387)\n    Shuts down mill's background server\n\nInputs:\n\nversion(MainModule.scala:95)\n    Show the mill version.\n\nInputs:\n",
+    "valueHash": 34060236,
+    "inputsHash": 1579336817
+}

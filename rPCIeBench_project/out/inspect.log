@@ -1,0 +1,10 @@
+[33mshutdown[39m(MainModule.scala:387)
+    Shuts down mill's background server
+
+[33mInputs[39m:
+
+[33mversion[39m(MainModule.scala:95)
+    Show the mill version.
+
+[33mInputs[39m:
+

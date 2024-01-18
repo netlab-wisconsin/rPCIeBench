@@ -1,0 +1,190 @@
+dma-ctl dev list
+dma-ctl qdma1a000 cap
+dma-ctl qdma1a000 q list
+dma-ctl qdma1a000 stat
+dma-ctl qdma1a000 stat clear
+dma-ctl qdma1a000 q dump idx 0 dir c2h
+
+
+
+dma-ctl qdma1a000 reg write bar 2 0 1
+dma-ctl qdma1a000 reg write bar 2 4 2
+dma-ctl qdma1a000 reg write bar 2 8 3
+dma-ctl qdma1a000 reg write bar 2 12 4
+dma-ctl qdma1a000 reg write bar 2 16 5
+dma-ctl qdma1a000 reg write bar 2 20 6
+dma-ctl qdma1a000 reg write bar 2 24 7
+dma-ctl qdma1a000 reg write bar 2 28 8
+
+dma-ctl qdma1a000 reg read bar 2 0
+dma-ctl qdma1a000 reg read bar 2 4
+dma-ctl qdma1a000 reg read bar 2 8
+dma-ctl qdma1a000 reg read bar 2 12
+dma-ctl qdma1a000 reg read bar 2 16
+dma-ctl qdma1a000 reg read bar 2 20
+dma-ctl qdma1a000 reg read bar 2 24
+dma-ctl qdma1a000 reg read bar 2 2052
+
+echo 1024 > /sys/bus/pci/devices/0000:3d:00.0/qdma/qmax
+dma-ctl qdma3d000 q add idx 0 mode st dir bi
+dma-ctl qdma3d000 q start idx 0 dir bi desc_bypass_en pfetch_bypass_en
+
+su root
+insmod /home/cj/qdma_dev/qdma_driver/src/qdma-pf.ko
+echo 1024 > /sys/bus/pci/devices/0000:1a:00.0/qdma/qmax
+dma-ctl qdma1a000 q add idx 0 mode st dir bi
+dma-ctl qdma1a000 q start idx 0 dir bi desc_bypass_en pfetch_bypass_en
+
+dma-ctl qdma1a000 q add idx 1 mode st dir bi
+dma-ctl qdma1a000 q start idx 1 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q add idx 2 mode st dir bi
+dma-ctl qdma1a000 q start idx 2 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q add idx 3 mode st dir bi
+dma-ctl qdma1a000 q start idx 3 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q add idx 4 mode st dir bi
+dma-ctl qdma1a000 q start idx 4 dir bi desc_bypass_en pfetch_bypass_en
+
+dma-ctl qdma1a000 q add idx 0 mode st dir bi
+dma-ctl qdma1a000 q add idx 1 mode st dir bi
+dma-ctl qdma1a000 q add idx 2 mode st dir bi
+dma-ctl qdma1a000 q add idx 3 mode st dir bi
+dma-ctl qdma1a000 q add idx 4 mode st dir bi
+dma-ctl qdma1a000 q add idx 5 mode st dir bi
+dma-ctl qdma1a000 q add idx 6 mode st dir bi
+dma-ctl qdma1a000 q add idx 7 mode st dir bi
+dma-ctl qdma1a000 q add idx 8 mode st dir bi
+dma-ctl qdma1a000 q add idx 9 mode st dir bi
+dma-ctl qdma1a000 q add idx 10 mode st dir bi
+dma-ctl qdma1a000 q add idx 11 mode st dir bi
+dma-ctl qdma1a000 q add idx 12 mode st dir bi
+dma-ctl qdma1a000 q add idx 13 mode st dir bi
+dma-ctl qdma1a000 q add idx 14 mode st dir bi
+dma-ctl qdma1a000 q add idx 15 mode st dir bi
+dma-ctl qdma1a000 q add idx 16 mode st dir bi
+dma-ctl qdma1a000 q add idx 17 mode st dir bi
+dma-ctl qdma1a000 q add idx 18 mode st dir bi
+dma-ctl qdma1a000 q add idx 19 mode st dir bi
+dma-ctl qdma1a000 q add idx 20 mode st dir bi
+dma-ctl qdma1a000 q add idx 21 mode st dir bi
+dma-ctl qdma1a000 q add idx 22 mode st dir bi
+dma-ctl qdma1a000 q add idx 23 mode st dir bi
+dma-ctl qdma1a000 q add idx 24 mode st dir bi
+dma-ctl qdma1a000 q add idx 25 mode st dir bi
+dma-ctl qdma1a000 q add idx 26 mode st dir bi
+dma-ctl qdma1a000 q add idx 27 mode st dir bi
+dma-ctl qdma1a000 q add idx 28 mode st dir bi
+dma-ctl qdma1a000 q add idx 29 mode st dir bi
+dma-ctl qdma1a000 q add idx 30 mode st dir bi
+dma-ctl qdma1a000 q add idx 31 mode st dir bi
+
+dma-ctl qdma1a000 q start idx 0 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 1 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 2 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 3 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 4 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 5 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 6 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 7 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 8 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 9 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 10 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 11 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 12 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 13 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 14 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 15 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 16 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 17 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 18 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 19 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 20 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 21 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 22 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 23 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 24 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 25 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 26 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 27 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 28 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 29 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 30 dir bi desc_bypass_en pfetch_bypass_en
+dma-ctl qdma1a000 q start idx 31 dir bi desc_bypass_en pfetch_bypass_en
+
+dma-ctl qdma1a000 reg read bar 2 0x00
+
+##################c2h
+dma-ctl qdma1a000 q add idx 0 mode st dir bi
+dma-ctl qdma1a000 q start idx 0 dir bi desc_bypass_en pfetch_bypass_en
+
+dma-ctl qdma1a000 reg write bar 0 0x1408 0
+dma-ctl qdma1a000 reg read bar 0 0x140C
+
+dma-ctl qdma1a000 q stop idx 0 dir bi
+dma-ctl qdma1a000 q del idx 0 dir bi
+
+#dma-mm
+dma-ctl qdma1a000 q add idx 3 mode mm dir h2c
+dma-ctl qdma1a000 q start idx 3 dir h2c
+dma-to-device -d /dev/qdma1a000-MM-3 -f datafile_16bit_pattern.bin -s 1024
+
+
+dma-ctl qdma1a000 q add idx 0 mode mm dir c2h
+dma-ctl qdma1a000 q add idx 0 mode mm dir bi
+
+###start st by
+dma-ctl qdma1a000 q add idx 0 mode st dir bi
+dma-ctl qdma1a000 q start idx 0 dir bi desc_bypass_en pfetch_bypass_en
+
+dma-ctl qdma1a000 reg write bar 2 0x90 1
+dma-to-device -d /dev/qdma1a000-ST-0 -f /home/amax2/cj/qdma-rc4ml/terminal/datafile_16bit_pattern.bin -s 1024
+
+dma-ctl qdma1a000 reg write bar 2 0x90 2
+
+dma-ctl qdma1a000 reg write bar 2 0x90 4
+dma-ctl qdma1a000 reg write bar 2 0x0 0
+dma-ctl qdma1a000 reg write bar 2 0x4 1024
+dma-ctl qdma1a000 reg write bar 2 0x20 1
+dma-ctl qdma1a000 reg write bar 2 0x8 2
+dma-from-device -d /dev/qdma1a000-ST-0 -f recv_file.bin -s 1024
+dma-ctl qdma1a000 reg write bar 2 0x8 22
+dma-ctl qdma1a000 q stop idx 0 dir bi
+dma-ctl qdma1a000 q del idx 0 dir bi
+
+make && sudo ./dma-to-device -d /dev/qdma1a000-ST-0 -f ../../scripts/datafile_16bit_pattern.bin -s 1024
+
+
+
+###start st c2h
+dma-ctl qdma1a000 q add idx 0 mode st dir bi
+dma-ctl qdma1a000 q start idx 0 dir bi
+dma-to-device -d /dev/qdma1a000-ST-0 -f datafile_16bit_pattern.bin -s 1024
+dma-ctl qdma1a000 reg write bar 2 0x0 0
+dma-ctl qdma1a000 reg write bar 2 0x4 1024
+dma-ctl qdma1a000 reg write bar 2 0x20 1
+dma-ctl qdma1a000 reg write bar 2 0x8 2
+dma-from-device -d /dev/qdma1a000-ST-0 -f recv_file.bin -s 1024
+
+
+dma-ctl qdma1a000 q start idx 0 dir bi
+dma-ctl qdma1a000 q stop idx 0 dir bi
+dma-ctl qdma1a000 q del idx 0 dir bi
+
+dma-ctl qdma1a000 q dump idx 0 dir bi
+dma-ctl qdma1a000 q dump idx 0 dir h2c desc 1 10
+dma-ctl qdma1a000 q dump idx 0 dir c2h cmpt 0 10
+
+./qdma_run_test_pf.sh 1a000 0 1 0 0 0 0
+
+dma-to-device -d /dev/qdma1a000-MM-0 -f datafile_16bit_pattern.bin -s 1024
+dma-from-device -d /dev/qdma1a000-MM-0 -f recv_file.bin -s 1024
+#(bytes)
+cmp datafile_16bit_pattern.bin recv_file.bin -n 1024
+
+
+make && ./dma-perf --config ./dmaperf_config/mm-bi/mm_1_8/bi_mm_1_8_1024
+make && ./dma-perf --config ./dmaperf_config/mm-c2h/mm_1_8/c2h_mm_1_8_1024
+make && ./dma-perf --config ./dmaperf_config/mm-h2c/mm_1_8/h2c_mm_1_8_1024
+
+make && ./dma-perf --config ./dmaperf_config/st-h2c/st_1_8_cmptsz0/h2c_st_1_8_cmptsz0_1024
+
+make && ./dma-perf --config ./dmaperf_config/st-c2h-pfetch1/st_1_8_pfetch-cmptsz1/c2h_st_1_8_pfetch-cmptsz1_256

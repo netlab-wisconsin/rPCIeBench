@@ -1,0 +1,26 @@
+{
+    "value": [
+        "common",
+        "hbm",
+        "project_foo",
+        "qdma",
+        "shutdown",
+        "version",
+        "version",
+        "resolve",
+        "plan",
+        "path",
+        "inspect",
+        "all",
+        "par",
+        "show",
+        "showNamed",
+        "clean",
+        "visualize",
+        "visualizePlan",
+        "shutdown",
+        "init"
+    ],
+    "valueHash": 494302587,
+    "inputsHash": -802162932
+}

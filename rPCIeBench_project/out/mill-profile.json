@@ -1,0 +1,382 @@
+[
+    {
+        "label": "CommSub.mainClass",
+        "millis": 31,
+        "cached": true
+    },
+    {
+        "label": "mill.scalalib.ZincWorkerModule.classpath",
+        "millis": 17,
+        "cached": true
+    },
+    {
+        "label": "mill.scalalib.ZincWorkerModule.zincLogDebug",
+        "millis": 28,
+        "cached": false
+    },
+    {
+        "label": "mill.scalalib.ZincWorkerModule.worker",
+        "millis": 696,
+        "cached": false
+    },
+    {
+        "label": "CommSub.scalaVersion",
+        "millis": 8,
+        "cached": true
+    },
+    {
+        "label": "common.scalaVersion",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "common.upstreamCompileOutput",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "common.sources",
+        "millis": 89,
+        "cached": false
+    },
+    {
+        "label": "common.generatedSources",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "common.allSources",
+        "millis": 7,
+        "cached": true
+    },
+    {
+        "label": "common.allSourceFiles",
+        "millis": 3,
+        "cached": true
+    },
+    {
+        "label": "common.transitiveLocalClasspath",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "common.resources",
+        "millis": 4,
+        "cached": false
+    },
+    {
+        "label": "common.unmanagedClasspath",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "common.platformSuffix",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "common.compileIvyDeps",
+        "millis": 4,
+        "cached": true
+    },
+    {
+        "label": "common.transitiveCompileIvyDeps",
+        "millis": 7,
+        "cached": true
+    },
+    {
+        "label": "common.ivyDeps",
+        "millis": 195,
+        "cached": true
+    },
+    {
+        "label": "common.mandatoryIvyDeps.overridden.mill.scalalib.JavaModule.mandatoryIvyDeps",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "common.scalaOrganization",
+        "millis": 6,
+        "cached": true
+    },
+    {
+        "label": "common.scalaLibraryIvyDeps",
+        "millis": 3,
+        "cached": true
+    },
+    {
+        "label": "common.mandatoryIvyDeps",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "common.transitiveIvyDeps",
+        "millis": 3,
+        "cached": true
+    },
+    {
+        "label": "common.resolvedIvyDeps",
+        "millis": 3,
+        "cached": true
+    },
+    {
+        "label": "common.compileClasspath",
+        "millis": 15,
+        "cached": true
+    },
+    {
+        "label": "common.javacOptions",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "common.mandatoryScalacOptions",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "common.scalacPluginIvyDeps",
+        "millis": 3,
+        "cached": true
+    },
+    {
+        "label": "common.enablePluginScalacOptions",
+        "millis": 9,
+        "cached": true
+    },
+    {
+        "label": "common.scalacOptions",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "common.allScalacOptions",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "common.scalaCompilerClasspath",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "common.scalacPluginClasspath",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "common.compile",
+        "millis": 3,
+        "cached": true
+    },
+    {
+        "label": "CommSub.upstreamCompileOutput",
+        "millis": 9,
+        "cached": true
+    },
+    {
+        "label": "CommSub.sources",
+        "millis": 137,
+        "cached": false
+    },
+    {
+        "label": "CommSub.generatedSources",
+        "millis": 4,
+        "cached": true
+    },
+    {
+        "label": "CommSub.allSources",
+        "millis": 11,
+        "cached": false
+    },
+    {
+        "label": "CommSub.allSourceFiles",
+        "millis": 21,
+        "cached": false
+    },
+    {
+        "label": "common.localClasspath",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "CommSub.transitiveLocalClasspath",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "CommSub.resources",
+        "millis": 2,
+        "cached": false
+    },
+    {
+        "label": "CommSub.unmanagedClasspath",
+        "millis": 7,
+        "cached": true
+    },
+    {
+        "label": "CommSub.platformSuffix",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "CommSub.compileIvyDeps",
+        "millis": 0,
+        "cached": true
+    },
+    {
+        "label": "CommSub.transitiveCompileIvyDeps",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "CommSub.ivyDeps",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "CommSub.mandatoryIvyDeps.overridden.mill.scalalib.JavaModule.mandatoryIvyDeps",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "CommSub.scalaOrganization",
+        "millis": 0,
+        "cached": true
+    },
+    {
+        "label": "CommSub.scalaLibraryIvyDeps",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "CommSub.mandatoryIvyDeps",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "CommSub.transitiveIvyDeps",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "CommSub.resolvedIvyDeps",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "CommSub.compileClasspath",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "CommSub.javacOptions",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "CommSub.mandatoryScalacOptions",
+        "millis": 0,
+        "cached": true
+    },
+    {
+        "label": "CommSub.scalacPluginIvyDeps",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "CommSub.enablePluginScalacOptions",
+        "millis": 0,
+        "cached": true
+    },
+    {
+        "label": "CommSub.scalacOptions",
+        "millis": 0,
+        "cached": true
+    },
+    {
+        "label": "CommSub.allScalacOptions",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "CommSub.scalaCompilerClasspath",
+        "millis": 13,
+        "cached": true
+    },
+    {
+        "label": "CommSub.scalacPluginClasspath",
+        "millis": 5,
+        "cached": true
+    },
+    {
+        "label": "CommSub.compile",
+        "millis": 6370,
+        "cached": false
+    },
+    {
+        "label": "CommSub.finalMainClassOpt",
+        "millis": 6,
+        "cached": false
+    },
+    {
+        "label": "CommSub.finalMainClass",
+        "millis": 5,
+        "cached": true
+    },
+    {
+        "label": "CommSub.localClasspath",
+        "millis": 2,
+        "cached": false
+    },
+    {
+        "label": "CommSub.runIvyDeps",
+        "millis": 0,
+        "cached": true
+    },
+    {
+        "label": "CommSub.resolvedRunIvyDeps",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "CommSub.upstreamAssemblyClasspath",
+        "millis": 6,
+        "cached": true
+    },
+    {
+        "label": "CommSub.runClasspath",
+        "millis": 2,
+        "cached": false
+    },
+    {
+        "label": "CommSub.forkArgs",
+        "millis": 0,
+        "cached": true
+    },
+    {
+        "label": "CommSub.forkEnv.overridden.mill.scalalib.JavaModule.forkEnv",
+        "millis": 15,
+        "cached": false
+    },
+    {
+        "label": "CommSub.forkEnv",
+        "millis": 4,
+        "cached": false
+    },
+    {
+        "label": "CommSub.forkWorkingDir",
+        "millis": 0,
+        "cached": true
+    },
+    {
+        "label": "CommSub.runUseArgsFile",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "CommSub.run",
+        "millis": 10033,
+        "cached": false
+    }
+]

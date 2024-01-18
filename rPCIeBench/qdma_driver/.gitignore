@@ -1,0 +1,12 @@
+*.o
+/bin/*
+.*.o.cmd
+.cache.mk
+apps/dma-ctl/dma-ctl
+apps/dma-from-device/dma-from-device
+apps/dma-latency/dma-latency
+apps/dma-perf/dma-perf
+apps/dma-to-device/dma-to-device
+apps/dma-xfer/dma-xfer
+src/qdma-pf.ko
+src/libqdma
