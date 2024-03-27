@@ -125,7 +125,7 @@ create a QDMA which must be named as QDMABlackBox
 
 ![image](https://github.com/netlab-wisconsin/rPCIeBench/assets/52404519/9ccc3233-767f-42ca-90fd-2766502a0e17)
 
-![image](https://github.com/netlab-wisconsin/rPCIeBench/assets/52404519/d86f815d-03d1-465e-821e-7757507aabef)
+![image](https://github.com/netlab-wisconsin/rPCIeBench/assets/52404519/073fc1da-ab0b-4202-a83f-d3ab58b0e835)
 
 ![image](https://github.com/netlab-wisconsin/rPCIeBench/assets/52404519/62c958d2-7ab4-411f-a3de-764bd54fe4c5)
 
