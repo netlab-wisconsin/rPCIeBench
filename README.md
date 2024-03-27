@@ -95,6 +95,8 @@ Add source file from where the Verilog Codes are located. ("/home/hwt22/rPCIeBen
 
 create an AXI Clock Converter which must be named as AXIClockConverterBlackBox
 
+![image](https://github.com/netlab-wisconsin/rPCIeBench/assets/52404519/913e4295-c598-4bb6-bfb8-3afd7b182063)
+
 <img width="983" alt="1704149265227" src="https://github.com/ThomasH1881/rPCIeBench/assets/52404519/4acfa2a6-5ebd-446c-95d4-cc542e405431">
 
 create an AXI Data Width Converter which must be named as AXIDataWidthConverterBlackBox
